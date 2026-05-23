@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+h1,
+h2,
+h3 {
+  color: #111827;
+}
+
+.btn-primary {
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
