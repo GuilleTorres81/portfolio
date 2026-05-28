@@ -41,3 +41,27 @@ h3 {
 .card-title {
   font-size: 1.25rem;
 }
+
+/* Estilos para la sección Mi stack */
+.stack-item {
+  width: 100%;
+  max-width: 120px;
+}
+
+.stack-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .stack-logo {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.stack-grid {
+  align-items: center;
+}
