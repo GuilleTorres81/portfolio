@@ -10,6 +10,10 @@ function StackGrid({ techs }) {
     { name: 'React', logo: reactLogo },
     { name: 'Vite', logo: viteLogo },
     { name: 'Node.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+    { name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
+    { name: 'Django', logo: 'https://static.djangoproject.com/img/logos/django-logo-negative.svg' },
+    { name: 'PostgreSQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+    { name: 'Git', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' }
   ];
 
   const list = Array.isArray(techs) && techs.length ? techs : defaultTechs;
