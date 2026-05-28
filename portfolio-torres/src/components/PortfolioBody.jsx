@@ -27,22 +27,22 @@ function PortfolioBody() {
           </div>
           <div className="row">
             <ProjectCard
-              title="Portfolio personal"
-              description="Diseño y desarrollo de un portafolio moderno con React y Bootstrap."
+              title="NutriTurnos"
+              description="Sistema de turnos personalizado para consultorios(nutricionista en este caso). Permite gestionar turnos y horarios de atención de manera flexible."
               image={heroImg}
               buttonLabel="Ver proyecto"
               buttonLink="#contact"
             />
             <ProjectCard
-              title="App de ejemplo"
-              description="Una segunda tarjeta reutilizable para mostrar otro proyecto o una demo."
+              title="Si.Mi.R"
+              description="Es un sistema que permite registrar al personal militar que asiste al comedor diariamente, con el fin de llevar un control de las comidas servidas y los costos asociados."
               image={heroImg}
               buttonLabel="Abrir demo"
               buttonLink="#projects"
             />
             <ProjectCard
-              title="Proyecto rápido"
-              description="Puedes agregar más tarjetas con el mismo componente sin repetir estructura."
+              title="Prestock"
+              description="Es un sistema que gestiona el inventario, y préstamos de elementos de un Centro de Estudiantes. Tambien registra uso de impresiones y entrada y salidas de los encargados de turno"
               image={heroImg}
               buttonLink=""
             />
