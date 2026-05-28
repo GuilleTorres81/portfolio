@@ -178,9 +178,20 @@
 }
 
 .profile-placeholder {
-  font-size: 4rem;
-  color: #c084fc;
-  opacity: 0.35;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #111827;
+}
+
+.profile-photo {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  transform: translateY(30px);
 }
 
 .badge-content {

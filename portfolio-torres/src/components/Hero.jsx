@@ -1,4 +1,5 @@
 import '../css/hero.css'
+import heroProfile from '../assets/hero-profile.jpeg'
 
 function Hero() {
   return (
@@ -50,7 +51,7 @@ function Hero() {
             <div className="profile-image-frame">
               <div className="profile-image" id="profileImage">
                 <div className="profile-placeholder">
-                  <i className="fas fa-code"></i>
+                  <img src={heroProfile} alt="Guillermo" className="profile-photo" />
                 </div>
               </div>
             </div>
