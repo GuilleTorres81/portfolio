@@ -1,6 +1,6 @@
 import Hero from './Hero'
 import heroImg from '../assets/hero.png'
-import ExampleCard from './ExampleCard'
+import ProjectCard from './ProjectCard'
 import StackGrid from './StackGrid'
 
 function PortfolioBody() {
@@ -26,10 +26,26 @@ function PortfolioBody() {
               <h2 className="fw-bold">Proyectos recientes</h2>
           </div>
           <div className="row">
-            <ExampleCard />
-            <ExampleCard />
-            <ExampleCard />
-
+            <ProjectCard
+              title="Portfolio personal"
+              description="Diseño y desarrollo de un portafolio moderno con React y Bootstrap."
+              image={heroImg}
+              buttonLabel="Ver proyecto"
+              buttonLink="#contact"
+            />
+            <ProjectCard
+              title="App de ejemplo"
+              description="Una segunda tarjeta reutilizable para mostrar otro proyecto o una demo."
+              image={heroImg}
+              buttonLabel="Abrir demo"
+              buttonLink="#projects"
+            />
+            <ProjectCard
+              title="Proyecto rápido"
+              description="Puedes agregar más tarjetas con el mismo componente sin repetir estructura."
+              image={heroImg}
+              buttonLink=""
+            />
           </div>
         </div>
       </section>
