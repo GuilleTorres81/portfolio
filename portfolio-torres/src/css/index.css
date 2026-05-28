@@ -1,0 +1,65 @@
+:root {
+  --text: #e5eefb;
+  --text-h: #f8fafc;
+  --bg: #080a16;
+  --border: rgba(148, 163, 184, 0.18);
+  --code-bg: rgba(15, 23, 42, 0.9);
+  --accent: #c084fc;
+  --accent-bg: rgba(192, 132, 252, 0.12);
+  --accent-border: rgba(192, 132, 252, 0.35);
+  --mono: 'Fira Code', 'Courier New', monospace;
+
+  color: var(--text);
+  background-color: var(--bg);
+  font-family: 'Fira Code', 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(192, 132, 252, 0.06), transparent 30%),
+    #080a16;
+  color: var(--text);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fira Code', 'Segoe UI', sans-serif;
+  color: var(--text-h);
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 6px;
+  color: var(--text-h);
+  font-size: 0.95rem;
+  line-height: 1.35;
+  padding: 0.25rem 0.45rem;
+  background: var(--code-bg);
+}

@@ -1,4 +1,4 @@
-import './App.css'
+import './css/app.css'
 import PortfolioBody from './components/PortfolioBody'
 import Footer from './components/Footer'
 

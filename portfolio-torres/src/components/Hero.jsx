@@ -9,10 +9,6 @@ function Hero() {
 
       <div className="hero-container">
         <div className="hero-content">
-          <h3 className="hero-name" id="heroIntro">
-            <span className="name-value">let dev</span>
-            <span className="name-suffix">;</span>
-          </h3>
           <h1 className="hero-name" id="heroName">
             <span className="name-prefix">dev</span>
             <span className="name-operator">=</span>
