@@ -14,7 +14,7 @@ function ProjectCard({
         ) : null}
         <div className="card-body d-flex flex-column">
           <h3 className="card-title">{title}</h3>
-          <p className="card-text text-muted">{description}</p>
+          <p className="card-text">{description}</p>
           {buttonLink ? (
             <a href={buttonLink} className="btn btn-outline-primary mt-auto">
               {buttonLabel}

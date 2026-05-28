@@ -15,6 +15,14 @@ body {
   color: #e5eefb;
 }
 
+.white-text {
+  max-width: 620px;
+  font-size: 1rem;
+  color: #cbd5e1;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
 main {
   flex: 1;
 }
@@ -39,10 +47,18 @@ h3 {
 
 .card {
   border-radius: 1rem;
+  border: 5px solid rgba(173, 193, 223, 0.25);
+  background: rgba(15, 23, 42, 0.92);
+  
 }
 
 .card-title {
   font-size: 1.25rem;
+  color: #cbd5e1;
+}
+
+.card-text {
+  color: #94a3b8;
 }
 
 /* Estilos para la sección Mi stack */
@@ -67,4 +83,22 @@ h3 {
 
 .stack-grid {
   align-items: center;
+}
+
+.stack-item .stack-logo {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.stack-item:hover .stack-logo {
+  transform: scale(1.5);
+}
+
+.stack-item .white-text {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.stack-item:hover .white-text {
+  transform: scale(0);
 }

@@ -24,7 +24,7 @@ function StackGrid({ techs }) {
         <div key={tech.name} className="col-4 col-sm-3 col-md-2 d-flex justify-content-center">
           <div className="stack-item text-center">
             <img src={tech.logo} alt={tech.name} className="stack-logo mb-2" loading="lazy" />
-            <div className="small hero-description">{tech.name}</div>
+            <div className="small white-text">{tech.name}</div>
           </div>
         </div>
       ))}

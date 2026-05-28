@@ -22,7 +22,7 @@ function Hero() {
             <span className="title-text">Desarrollador Full Stack</span>
           </div>
 
-          <p className="hero-description">
+          <p className="white-text">
             Desarrollador apasionado que crea experiencias digitales excepcionales con tecnologías modernas.
           </p>
 
