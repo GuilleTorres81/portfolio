@@ -11,10 +11,8 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-name" id="heroName">
-            <span className="name-prefix">dev</span>
-            <span className="name-operator">=</span>
-            <span className="name-value">Guillermo</span>
-            <span className="name-suffix">;</span>
+            <span className="name-prefix">Guillermo </span>
+            <span className="name-value">Torres</span>
           </h1>
 
           <div className="hero-title">
@@ -23,7 +21,7 @@ function Hero() {
           </div>
 
           <p className="white-text">
-            Desarrollador apasionado que crea experiencias digitales excepcionales con tecnologías modernas.
+            Desarrollador Full-Stack con experiencia en desarrollo de aplicaciones web, APIs y plataformas SaaS utilizando Django, React y PostgreSQL.
           </p>
 
           <div className="hero-buttons">
