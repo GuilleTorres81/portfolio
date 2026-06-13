@@ -1,6 +1,8 @@
 import Hero from './Hero'
 import heroImg from '../assets/hero.png'
+import saltaCodeLogo from '../assets/saltacode-dark.png'
 import ProjectCard from './ProjectCard'
+import JobCard from './JobCard'
 import StackGrid from './StackGrid'
 
 function PortfolioBody() {
@@ -47,6 +49,21 @@ function PortfolioBody() {
               buttonLink=""
             />
           </div>
+        </div>
+      </section>
+      <section className="py-5" id="jobs">
+        <div className="container">
+          <div className="row align-items-center">
+            <h2 className="fw-bold">Experiencia laboral</h2>
+          </div>
+          <JobCard
+            logo = {saltaCodeLogo}
+            role="Desarrollador Full Stack"
+            company="SaltaCode"
+            description="Desarrollo y mantenimiento de sistemas y páginas web haciendo uso de Front-end básico, y Django para el backend."
+            range="Nov 2023 - May 2025"
+            stack={['Django', 'HTML', 'CSS', 'JavaScript', 'PostgreSQL']}
+          />
         </div>
       </section>
     </main>
